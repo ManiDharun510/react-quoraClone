@@ -1,0 +1,67 @@
+body{
+    background-color:rgb(241 242 242);
+}
+.navigbarshrink{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: rgb(255, 255, 255)!important;
+    box-shadow: 0px 0px 10px rgb(211, 211, 211);
+}
+.logoshrink{
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.imageshrink{
+    width:80px; 
+}
+.searchbox{
+    width:500px;
+}
+.searchboxheight{
+    height:30px;
+}
+.redbutton{
+    font-size: 14px;
+    height: 30px;
+    background-color: rgb(185 43 39);
+    color:white;
+    border: 1px solid rgb(185 43 39);
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.redbutton:hover{
+    background-color: rgb(150, 35, 31);
+}
+.redbutton:active{
+    background-color: rgb(150, 35, 31);
+    color:rgb(212, 212, 212);
+}
+
+/*-------Navigation barcompleted---------*/
+
+.contbox{
+    box-sizing: border-box;
+    display: flex;
+    margin-left: 200px;
+    margin-right:200px;
+}
+.quebox{
+    box-sizing: border-box; 
+    background-color: white;
+    width:700px;
+    padding:10px 20px;
+    height:fit-content;
+    border:1px solid rgb(211, 211, 211);
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-right: 20px;
+}
+.ansbox{
+    width:300px;
+    height:200px;
+}
