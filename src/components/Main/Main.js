@@ -8,7 +8,7 @@ import { useState } from 'react';
 import { useEffect } from 'react';
 import axios from 'axios';
 function Main(){
-  const [getval, setval] = useState("edit");
+  const [getval, setval] = useState("");
   const [getser, setser] = useState(false);
   const [getserlist, setserlist] = useState([]);
   const [loginState, setloginState]=useState(false)
